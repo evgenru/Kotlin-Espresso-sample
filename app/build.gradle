@@ -26,7 +26,7 @@ android {
         }
         debug {
 //            TODO Issue android Test
-            minifyEnabled false
+            minifyEnabled true
 
             useProguard false
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
